@@ -23,6 +23,7 @@ header{
 
 .titulo {
     text-align: center;
+    justify-content: center;
 }
 
 .card img {
@@ -65,4 +66,27 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 2rem;
+}
+
+@media (max-width: 770px) {
+    .texto {
+        width: 70%;
+    }
+    .orR{
+        width: 100%;
+    }
+    #imgR {
+        height: 100%;
+    }
+    #noteR {
+        text-align:right;
+    }
+}
+
+@media (max-width: 540px) {
+    .orR {
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    
 }

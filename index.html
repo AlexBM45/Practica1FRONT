@@ -80,51 +80,43 @@
         </div>
       </div>
     </div>
-    <div class="mt-3 mb-4">
-      <div class="titulo">
-        <small>Conoce a los</small>
-        <h4>ORADORES</h4>
+    <div class="titulo">
+      <small>Conoce a los</small>
+      <h4>ORADORES</h4>
+    </div>
+    <div class="card-group pb-4 orR">
+      <div class="card">
+        <img src="./IMG/steve.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Steve Jobs</h5>
+          <span class="badge bg-warning text-dark">JavaScript</span>
+          <span class="badge bg-info text-dark">React</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <div class="card h-100">
-            <img src="./IMG/steve.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Steve Jobs</h5>
-              <span class="badge bg-warning text-dark">JavaScript</span>
-              <span class="badge bg-info text-dark">React</span>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt consequuntur laboriosam, excepturi voluptatem aspernatur cumque dolores nesciunt recusandae incidunt veritatis explicabo doloribus repellat vel officiis perferendis hic, beatae obcaecati quod!</p>
-            </div>
-          </div>
+      <div class="card">
+        <img src="./IMG/bill.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bill Gates</h5>
+          <span class="badge bg-warning text-dark">JavaScript</span>
+          <span class="badge bg-info text-dark">React</span>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./IMG/bill.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Bill Gates</h5>
-              <span class="badge bg-warning text-dark">JavaScript</span>
-              <span class="badge bg-info text-dark">React</span>
-              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa inventore a labore, assumenda voluptates error quis aliquid alias. Harum sequi adipisci explicabo asperiores pariatur modi aliquam dignissimos veritatis necessitatibus quas?</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./IMG/ada.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Ada Lovelace</h5>
-              <span class="badge bg-secondary">Negocios</span>
-              <span class="badge bg-danger">Startups</span>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eos, possimus quisquam laboriosam iste perferendis? Corrupti, illum asperiores. Accusamus excepturi nemo ratione maxime tempora similique enim quo cum sint deleniti!</p>
-            </div>
-          </div>
+      </div>
+      <div class="card">
+        <img src="./IMG/ada.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ada Lovelace</h5>
+          <span class="badge bg-secondary">Negocios</span>
+          <span class="badge bg-danger">Startups</span>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
         </div>
       </div>
     </div>
-    <div class="card mb-3">
+    <div class="mb-3">
       <div class="row g-0">
         <div class="col-md-6">
-          <img src="./IMG/honolulu.jpg" class="d-block w-100" alt="...">
+          <img id="imgR" src="./IMG/honolulu.jpg" class="d-block w-100" alt="...">
         </div>
         <div id="hon" class="col-md-6 text-white">
           <div class="card-body">
@@ -146,7 +138,7 @@
           <input class="mb-3" type="text" placeholder="Nombre">
           <input type="text" placeholder="Apellido">
           <textarea name="tema" id="tema" rows="3" placeholder="¿Sobre qué quieres hablar?"></textarea>
-          <small class="mb-3">Recuerda incluir un título para tu charla</small>
+          <small id="noteR" class="mb-3">Recuerda incluir un título para tu charla</small>
         </form>
         <button id="enviar">Enviar</button>
       </div>
