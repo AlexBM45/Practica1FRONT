@@ -26,6 +26,14 @@ header{
     justify-content: center;
 }
 
+.orR {
+    margin: 1.5rem;
+}
+
+.orR .card {
+    margin: 0 2rem;
+}
+
 .card img {
     width: 100%;
     height: 20rem;
@@ -44,11 +52,9 @@ input {
     display: inline-block;
 }
 
-form small {
+form label {
     display: block;
     font-size: 0.7rem;
-    position: relative;
-    right: 17rem;
 }
 
 #enviar {
@@ -72,21 +78,39 @@ footer {
     .texto {
         width: 70%;
     }
-    .orR{
-        width: 100%;
-    }
     #imgR {
         height: 100%;
     }
-    #noteR {
-        text-align:right;
+    .orR {
+        width: 100%;
+        margin: 0;
+    }
+    .titulo {
+        justify-content: center;
     }
 }
 
 @media (max-width: 540px) {
-    .orR {
-        width: 50%;
-        flex-wrap: wrap;
+    .texto {
+        width: 100%;
+        left: 0.2rem;
+        bottom: 18rem;
     }
-    
+    .texto button {
+        margin-right: 1rem;
+    }
+    .orR {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 415px) {
+    .texto {
+        top: 0.1rem;
+        color: black;
+    }
+    .texto button {
+        color: black;
+    }
 }
