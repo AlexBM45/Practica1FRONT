@@ -2,6 +2,13 @@ header{
     background-color: #34393f;
 }
 
+.mainTicket {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
 #ticket {
     color: green;
 }
@@ -26,12 +33,9 @@ header{
     justify-content: center;
 }
 
-.orR {
-    margin: 1.5rem;
-}
-
 .orR .card {
     margin: 0 2rem;
+    margin-bottom: 2rem;
 }
 
 .card img {
@@ -66,6 +70,36 @@ form label {
     border-radius: 5px;
 }
 
+.desc {
+    width: 100%;
+    display: flex;
+    padding-top: 1.2rem;
+    justify-content: space-around;
+}
+
+.desc .card {
+    width: 32%;
+}
+
+.compra #nombre {
+    width: 49%;
+}
+
+.compra #apellido {
+    width: 49%;
+}
+
+.compra #email {
+    width: 99%;
+    margin-top: 0.8rem;
+}
+
+.compra label {
+    display: inline;
+    width: 50%;
+    justify-self: space-around;
+}
+
 footer {
     background: linear-gradient(to right, #1a3843, #1e5271);
     color: white;
@@ -81,10 +115,6 @@ footer {
     #imgR {
         height: 100%;
     }
-    .orR {
-        width: 100%;
-        margin: 0;
-    }
     .titulo {
         justify-content: center;
     }
@@ -98,10 +128,6 @@ footer {
     }
     .texto button {
         margin-right: 1rem;
-    }
-    .orR {
-        margin: 0;
-        width: 100%;
     }
 }
 
