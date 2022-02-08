@@ -81,11 +81,11 @@ form label {
     width: 32%;
 }
 
-.compra #nombre {
-    width: 49%;
+.compra input, select {
+    padding: 0.4rem;
 }
 
-.compra #apellido {
+.compra #nombre, #apellido, .cantidad, .categoria {
     width: 49%;
 }
 
@@ -94,10 +94,31 @@ form label {
     margin-top: 0.8rem;
 }
 
-.compra label {
-    display: inline;
-    width: 50%;
-    justify-self: space-around;
+form div {
+    width: 49%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+form div label {
+    font-size: large;
+}
+
+form div input, select {
+    width: 100%;
+}
+
+.total {
+    background-color: rgb(205, 228, 255);
+    color: rgb(2, 81, 172);
+    padding: 0 1.2rem;
+    margin: 1.2rem 0;
+}
+
+.bontones button {
+    color: #96c93e;
 }
 
 footer {

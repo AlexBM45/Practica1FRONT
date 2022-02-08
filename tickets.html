@@ -14,7 +14,7 @@
       <div class="container-fluid">
         <div>
           <img src="./IMG/codoacodo.png" alt="logo_codoAcodo" width="100">
-          <a class="navbar-brand" href="./index.html">Conf Bs As</a>
+          <a class="navbar-brand" href="index.html">Conf Bs As</a>
         </div>
         <div>
           <div>
@@ -37,7 +37,7 @@
                 <a class="nav-link">Conviértete en orador</a>
               </li>
               <li class="nav-item">
-                <a id="ticket" class="nav-link" href="./tickets.html">Comprar tickets</a>
+                <a id="ticket" class="nav-link" href="tickets.html">Comprar tickets</a>
               </li>
             </ul>
           </div>
@@ -80,15 +80,26 @@
         <input type="text" id="nombre" placeholder="Nombre">
         <input type="text" id="apellido" placeholder="Apellido">
         <input type="email" name="email" id="email" placeholder="correo">
-        <label for="cantidad">Cantidad</label>
-        <label for="categoria">Categoría</label>
+        <div class="cantidad">
+          <label for="cantidad">Cantidad</label>
         <input type="text" id="cantidad" placeholder="cantidad">
+        </div>
+        <div class="categoria">
+          <label for="categoria">Categoría</label>
         <select name="categoria" id="categoria">
             <option value="estudiante">Estudiante</option>
             <option value="trainee">Trainee</option>
             <option value="junior">Junior</option>
         </select>
+        </div>
     </form>
+    <div class="total">
+      <p>Total a Pagar: $</p>
+    </div>
+    <div class="botones">
+      <button type="reset">Borrar</button>
+      <button type="submit">Resumen</button>
+    </div>
   </main>
   <footer>
     <div class="row">
