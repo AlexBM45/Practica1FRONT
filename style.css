@@ -74,7 +74,7 @@ form label {
     width: 100%;
     display: flex;
     padding-top: 1.2rem;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .desc .card {
@@ -149,6 +149,12 @@ footer {
     padding: 2rem;
 }
 
+@media (max-width: 920px) {
+    .mainTicket {
+        width: 90%;
+    }
+}
+
 @media (max-width: 770px) {
     .texto {
         width: 70%;
@@ -179,5 +185,28 @@ footer {
     }
     .texto button {
         color: black;
+    }
+    .mainTicket {
+        width: 60%;
+    }
+    .desc {
+        width: 100%;
+        display: block;
+    }
+    .desc .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .mainTicket {
+        width: 80%;
+    }
+    .compra #nombre, #apellido, .cantidad, .categoria {
+        width: 100%;
+        margin-bottom: 0.8rem;
+    }
+    .venta {
+        font-size: small;
     }
 }
