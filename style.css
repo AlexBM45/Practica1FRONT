@@ -81,6 +81,11 @@ form label {
     width: 32%;
 }
 
+.compra {
+    display: inline-block;
+    justify-content: space-between;
+}
+
 .compra input, select {
     padding: 0.4rem;
 }
@@ -113,12 +118,27 @@ form div input, select {
 .total {
     background-color: rgb(205, 228, 255);
     color: rgb(2, 81, 172);
-    padding: 0 1.2rem;
-    margin: 1.2rem 0;
+    padding: 1rem;
+    margin: 2rem 0;
 }
 
-.bontones button {
-    color: #96c93e;
+.total p {
+    margin: 0;
+    padding-left: 0.4rem;
+    display: flex;
+    float: inline-start;
+}
+
+.botones {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button {
+    width: 48%;
+    background-color: #96c93e;
+    color: white;
 }
 
 footer {
