@@ -195,6 +195,10 @@ footer {
     }
     .desc .card {
         width: 100%;
+        margin-bottom: 0.6rem;
+    }
+    form label {
+        padding-bottom: 0.2rem;
     }
 }
 
@@ -204,7 +208,7 @@ footer {
     }
     .compra #nombre, #apellido, .cantidad, .categoria {
         width: 100%;
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.4rem;
     }
     .venta {
         font-size: small;
