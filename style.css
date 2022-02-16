@@ -33,6 +33,11 @@ header{
     justify-content: center;
 }
 
+button a {
+    text-decoration: none;
+    color: white;
+}
+
 .orR .card {
     margin: 0 2rem;
     margin-bottom: 2rem;
@@ -153,14 +158,14 @@ footer {
     .mainTicket {
         width: 90%;
     }
+    #imgR {
+        height: 100%;
+    }
 }
 
 @media (max-width: 770px) {
     .texto {
         width: 70%;
-    }
-    #imgR {
-        height: 100%;
     }
     .titulo {
         justify-content: center;

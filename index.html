@@ -17,24 +17,22 @@
           <a class="navbar-brand" href="index.html">Conf Bs As</a>
         </div>
         <div>
-          <div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Los oradores</a>
+                <a class="nav-link" href="#orador">Los oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">El lugar y la fecha</a>
+                <a class="nav-link" href="#hon">El lugar y la fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Conviértete en orador</a>
+                <a class="nav-link" href="#linkArriba">Conviértete en orador</a>
               </li>
               <li class="nav-item">
                 <a id="ticket" class="nav-link" href="tickets.html">Comprar tickets</a>
@@ -74,13 +72,14 @@
             <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. ¡Te esperamos!</p>
           </div>
           <div>
-            <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-            <button type="button" class="btn btn-success">Comprar tickets</button>
+            <button type="button" class="btn btn-outline-light">
+             <a href="#linkArriba">Quiero ser orador</a></button>
+            <button type="button" class="btn btn-success"><a href="tickets.html">Comprar tickets</a></button>
           </div>
         </div>
       </div>
     </div>
-    <div class="titulo">
+    <div id="orador" class="titulo">
       <small>Conoce a los</small>
       <h4>ORADORES</h4>
     </div>
@@ -129,7 +128,7 @@
         </div>
       </div>
     </div>
-    <div class="card">
+    <div id="linkArriba" class="card">
       <div class="card-title titulo">
         <small>CONVIÉRTETE EN UN</small>
         <h4>ORADOR</h4>
