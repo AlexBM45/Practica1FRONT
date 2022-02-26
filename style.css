@@ -125,13 +125,13 @@ form div input, select {
     color: rgb(2, 81, 172);
     padding: 1rem;
     margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .total p {
     margin: 0;
-    padding-left: 0.4rem;
-    display: flex;
-    float: inline-start;
+    padding: 0 0.6rem;
 }
 
 .botones {

@@ -76,17 +76,17 @@
         <small>VENTA</small>
         <h2>VALOR DE TICKET $200</h2>
     </div>
-    <form class="compra" action="click()">
-        <input type="text" id="nombre" placeholder="Nombre">
-        <input type="text" id="apellido" placeholder="Apellido">
-        <input type="email" name="email" id="email" placeholder="correo">
+    <form class="compra">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="apellido" placeholder="Apellido" required>
+        <input type="email" name="email" id="email" placeholder="correo" required>
         <div class="cantidad">
           <label for="cantidad">Cantidad</label>
-        <input type="text" id="cantidad" placeholder="cantidad">
+        <input type="number" id="cantidad" placeholder="cantidad" required>
         </div>
         <div class="categoria">
           <label for="categoria">Categoría</label>
-        <select name="categoria" id="categoria">
+        <select name="categoria" id="categoria" required>
             <option value="estudiante">Estudiante</option>
             <option value="trainee">Trainee</option>
             <option value="junior">Junior</option>
@@ -94,11 +94,12 @@
         </div>
     </form>
     <div class="total">
-      <p>Total a Pagar: $</p>
+      <p>Total a Pagar: </p>
+      <p id="total"></p>
     </div>
     <div class="botones">
       <button type="reset" class="btn">Borrar</button>
-      <button type="submit" class="btn">Resumen</button>
+      <button type="submit" class="btn" onclick="onClick()">Resumen</button>
     </div>
   </main>
   <footer>
