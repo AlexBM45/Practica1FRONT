@@ -29,7 +29,7 @@ header{
 }
 
 .titulo {
-    width: 50%;
+    width: 80%;
     margin: auto;
     text-align: center;
     justify-content: center;
@@ -154,6 +154,15 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 2rem;
+}
+
+td a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    background-color: #96c93e;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 0.4rem;
 }
 
 @media (max-width: 920px) {
